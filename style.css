@@ -17,5 +17,58 @@
 /* Shared marketing case template: existing Moon rules, reused by Haleon. */
 :is(.moon-case,.marketing-case) .six-overview{margin-bottom:28px}:is(.moon-case,.marketing-case) .case-chapter{padding:33px 0 28px}:is(.moon-case,.marketing-case) .case-chapter h2{font-size:25px}:is(.moon-case,.marketing-case) .case-chapter>p:not(.eyebrow){font-size:13px;line-height:1.95}:is(.moon-case,.marketing-case) .case-chapter strong{font-weight:500;color:var(--ink)}:is(.moon-case,.marketing-case) .chapter-nav{position:static;gap:18px}:is(.moon-case,.marketing-case) .case-chapter .six-method{padding:15px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px;margin:22px 0;color:var(--ink)}:is(.moon-case,.marketing-case) .gallery.evidence-gallery{max-width:420px;gap:22px}:is(.moon-case,.marketing-case) .evidence-gallery .gallery-image{width:100%;max-height:none;overflow:visible}:is(.moon-case,.marketing-case) .evidence-gallery img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}:is(.moon-case,.marketing-case) .evidence-gallery figcaption{padding-top:12px}:is(.moon-case,.marketing-case) .evidence-gallery h3{font-size:15px}:is(.moon-case,.marketing-case) .evidence-gallery p{font-size:10px}:is(.moon-case,.marketing-case) .six-summary{margin:20px 0}:is(.moon-case,.marketing-case) #image-dialog{max-height:94vh}@media(max-width:650px){:is(.moon-case,.marketing-case) .case-chapter h2{font-size:22px}:is(.moon-case,.marketing-case) .case-chapter>p:not(.eyebrow){font-size:12px}:is(.moon-case,.marketing-case) .chapter-nav{gap:10px 15px;font-size:9px}:is(.moon-case,.marketing-case) .case-chapter .six-method{font-size:11px}:is(.moon-case,.marketing-case) .gallery.evidence-gallery{grid-template-columns:1fr 1fr!important;max-width:280px!important;gap:15px!important}:is(.moon-case,.marketing-case) .evidence-gallery h3{font-size:13px}:is(.moon-case,.marketing-case) .evidence-gallery p{font-size:10px}}
 
-/* Homepage refinement: concise experience, three evidence-led abilities, existing visual language. */
-.home-refined .brand-identity{font-size:11px;line-height:1.8;color:var(--muted);margin:-2px 0 16px}.home-refined #additional-experience,.home-refined #capabilities{padding-top:72px}.home-refined .compact-support{align-items:stretch}.home-refined .compact-support .support{padding:28px;min-width:0}.home-refined .compact-support h3{font-size:20px;line-height:1.65;margin:17px 0 14px}.home-refined .compact-support .support>p{margin:0;font-size:12px;line-height:1.95}.home-refined .about{padding-bottom:72px}.home-refined .ability{align-items:flex-start}.home-refined .ability>span:first-child{margin-top:5px;flex-shrink:0}.home-refined .ability>div{flex:1;min-width:0}.home-refined .ability-cn{display:block;font-size:17px;font-weight:500;color:var(--ink)}.home-refined .ability-en{display:block;font-size:12px;font-weight:400;color:var(--muted);margin:4px 0 0;overflow-wrap:anywhere}.home-refined .ability p{font-size:12px;line-height:1.85}.home-refined .ability .ability-evidence{font-size:11px;line-height:1.9;margin-top:12px}.home-refined .ability-evidence a{color:var(--blue);border-bottom:1px solid var(--line)}.home-refined .ability-evidence a:hover{color:var(--ink)}.home-refined .ability-mark{flex-shrink:0}.home-refined .contact-bottom{flex-wrap:wrap}.home-refined .contact-bottom>a:last-child{font-size:12px}.home-refined .contact-bottom>a[href^="mailto:"]{overflow-wrap:anywhere}@media(max-width:650px){.home-refined #additional-experience,.home-refined #capabilities{padding-top:52px}.home-refined .compact-support .support{padding:24px}.home-refined .compact-support h3{font-size:19px}.home-refined .about{padding-bottom:52px}.home-refined .ability{gap:14px}.home-refined .ability-cn{font-size:16px}.home-refined .ability-en{font-size:11px}.home-refined .ability .ability-evidence{font-size:11px}.home-refined .contact-bottom>a{display:table;max-width:100%}.home-refined .contact-bottom>a:last-child{margin-top:20px}}
+/* Homepage: commercial experience and a compact education/language profile. */
+.home-refined .brand-identity{font-size:11px;line-height:1.8;color:var(--muted);margin:-2px 0 16px}
+.home-refined #additional-experience,.home-refined #capabilities{padding-top:64px}
+.home-refined .experience-grid{align-items:stretch}
+.home-refined .experience{display:flex;flex-direction:column;min-width:0;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.home-refined .experience-heading h3{font-size:26px;font-weight:600;line-height:1.4;margin:0}
+.home-refined .experience-direction{font-size:13px;line-height:1.8;margin:7px 0 0}
+.home-refined .experience h4{font-size:19px;font-weight:500;line-height:1.65;margin:20px 0 12px}
+.home-refined .experience-highlight{color:var(--blue);font-weight:600}
+.home-refined .experience-description{font-size:13px;line-height:1.95;color:#61584f;margin:0 0 22px}
+.home-refined .experience-number{font-size:29px;font-weight:500;line-height:1;color:var(--blue);margin:0 4px;white-space:nowrap}
+.home-refined .experience-logic{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:16px;margin:auto 0 0;font-size:12px;line-height:1.8}
+.home-refined .experience-logic [aria-hidden]{color:var(--muted)}
+.home-refined .about-background{padding-bottom:64px}
+.home-refined .about-background .section-title{margin-bottom:20px}
+.home-refined .background-intro{font-size:14px;line-height:1.95;max-width:920px;margin:0}
+.home-refined .personal-motto{font-size:12px;line-height:1.8;color:#61584f;margin:13px 0 0}
+.home-refined .background-heading{font-size:20px;font-weight:500;line-height:1.5;margin:30px 0 18px}
+.home-refined .background-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.home-refined .background-item{min-width:0;padding:24px}
+.home-refined .background-item+.background-item{border-left:1px solid var(--line)}
+.home-refined .background-item h4{font-size:22px;font-weight:600;line-height:1.5;margin:0 0 10px}
+.home-refined .background-degree{font-size:13px;line-height:1.8;margin:0}
+.home-refined .background-detail{font-size:12px;line-height:1.8;color:#61584f;margin:14px 0 0}
+.home-refined .background-highlight{font-size:24px;font-weight:500;color:var(--blue);margin-left:5px;white-space:nowrap}
+.home-refined .background-score{font-size:28px;line-height:1.4;color:var(--blue);margin:0}
+.home-refined .background-score strong{font-weight:500;white-space:nowrap}
+.home-refined .contact-bottom{flex-wrap:wrap}
+.home-refined .contact-bottom>a:last-child{font-size:12px}
+.home-refined .contact-bottom>a[href^="mailto:"]{overflow-wrap:anywhere}
+@media(max-width:1000px) and (min-width:651px){
+.home-refined .experience{padding:24px}
+.home-refined .experience h4{font-size:18px}
+.home-refined .experience-logic{font-size:11px;gap:5px}
+.home-refined .background-item{padding:22px 16px}
+.home-refined .background-item h4{font-size:20px}
+.home-refined .background-degree,.home-refined .background-detail{font-size:12px}
+}
+@media(max-width:650px){
+.home-refined #additional-experience,.home-refined #capabilities{padding-top:48px}
+.home-refined .experience{padding:24px}
+.home-refined .experience-heading h3{font-size:25px}
+.home-refined .experience h4{font-size:19px;margin-top:18px}
+.home-refined .experience-description{font-size:13px}
+.home-refined .experience-logic{font-size:11px;gap:6px}
+.home-refined .about-background{padding-bottom:48px}
+.home-refined .background-intro{font-size:13px;line-height:1.95}
+.home-refined .background-heading{font-size:19px;margin-top:26px}
+.home-refined .background-grid{grid-template-columns:1fr}
+.home-refined .background-item{padding:22px 0}
+.home-refined .background-item+.background-item{border-left:0;border-top:1px solid var(--line)}
+.home-refined .background-item h4{font-size:22px}
+.home-refined .contact-bottom>a{display:table;max-width:100%}
+.home-refined .contact-bottom>a:last-child{margin-top:20px}
+}
