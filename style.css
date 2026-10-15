@@ -32,18 +32,6 @@
 .home-refined .experience-logic [aria-hidden]{color:var(--muted)}
 .home-refined .about-background{padding-bottom:64px}
 .home-refined .about-background .section-title{margin-bottom:20px}
-.home-refined .background-intro{font-size:14px;line-height:1.95;max-width:920px;margin:0}
-.home-refined .personal-motto{font-size:12px;line-height:1.8;color:#61584f;margin:13px 0 0}
-.home-refined .background-heading{font-size:20px;font-weight:500;line-height:1.5;margin:30px 0 18px}
-.home-refined .background-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.home-refined .background-item{min-width:0;padding:24px}
-.home-refined .background-item+.background-item{border-left:1px solid var(--line)}
-.home-refined .background-item h4{font-size:22px;font-weight:600;line-height:1.5;margin:0 0 10px}
-.home-refined .background-degree{font-size:13px;line-height:1.8;margin:0}
-.home-refined .background-detail{font-size:12px;line-height:1.8;color:#61584f;margin:14px 0 0}
-.home-refined .background-highlight{font-size:24px;font-weight:500;color:var(--blue);margin-left:5px;white-space:nowrap}
-.home-refined .background-score{font-size:28px;line-height:1.4;color:var(--blue);margin:0}
-.home-refined .background-score strong{font-weight:500;white-space:nowrap}
 .home-refined .contact-bottom{flex-wrap:wrap}
 .home-refined .contact-bottom>a:last-child{font-size:12px}
 .home-refined .contact-bottom>a[href^="mailto:"]{overflow-wrap:anywhere}
@@ -51,9 +39,6 @@
 .home-refined .experience{padding:24px}
 .home-refined .experience h4{font-size:18px}
 .home-refined .experience-logic{font-size:11px;gap:5px}
-.home-refined .background-item{padding:22px 16px}
-.home-refined .background-item h4{font-size:20px}
-.home-refined .background-degree,.home-refined .background-detail{font-size:12px}
 }
 @media(max-width:650px){
 .home-refined #additional-experience,.home-refined #capabilities{padding-top:48px}
@@ -63,12 +48,41 @@
 .home-refined .experience-description{font-size:13px}
 .home-refined .experience-logic{font-size:11px;gap:6px}
 .home-refined .about-background{padding-bottom:48px}
-.home-refined .background-intro{font-size:13px;line-height:1.95}
-.home-refined .background-heading{font-size:19px;margin-top:26px}
-.home-refined .background-grid{grid-template-columns:1fr}
-.home-refined .background-item{padding:22px 0}
-.home-refined .background-item+.background-item{border-left:0;border-top:1px solid var(--line)}
-.home-refined .background-item h4{font-size:22px}
 .home-refined .contact-bottom>a{display:table;max-width:100%}
 .home-refined .contact-bottom>a:last-child{margin-top:20px}
+}
+
+/* About Me only: original portrait and three concise, practical strengths. */
+.home-refined #capabilities .profile-layout{display:grid;grid-template-columns:minmax(0,35fr) minmax(0,65fr);gap:48px;align-items:center}
+.home-refined #capabilities .about-photo{margin:0;width:100%}
+.home-refined #capabilities .profile-strengths{min-width:0}
+.home-refined #capabilities .profile-strength{padding:20px 0;border-top:1px solid var(--line)}
+.home-refined #capabilities .profile-strength:last-child{padding-bottom:0}
+.home-refined #capabilities .profile-label{display:flex;align-items:baseline;gap:12px;font-size:13px;line-height:1.7;margin:0;font-weight:500}
+.home-refined #capabilities .profile-label>span{font-size:10px;font-weight:400;color:var(--muted)}
+.home-refined #capabilities .profile-main{font-size:24px;font-weight:500;line-height:1.5;margin:9px 0}
+.home-refined #capabilities .profile-status{font-size:14px;font-weight:400;white-space:nowrap}
+.home-refined #capabilities .profile-detail{font-size:13px;line-height:1.95;color:#61584f;margin:0}
+.home-refined #capabilities .profile-emphasis{color:var(--blue);font-weight:500}
+.home-refined #capabilities .profile-detail .profile-emphasis{font-size:18px;margin-left:4px;white-space:nowrap}
+.home-refined #capabilities .profile-tools{display:grid;grid-template-columns:80px minmax(0,1fr);gap:6px 12px;font-size:12px;line-height:1.8;margin:12px 0}
+.home-refined #capabilities .profile-tools dt{font-weight:500}
+.home-refined #capabilities .profile-tools dd{margin:0;color:#61584f}
+.home-refined #capabilities .profile-platform{font-size:11px;white-space:nowrap}
+.home-refined #capabilities .profile-application strong{font-weight:500;color:var(--ink)}
+@media(max-width:1000px) and (min-width:651px){
+.home-refined #capabilities .profile-layout{gap:28px}
+.home-refined #capabilities .about-photo img{height:220px;max-width:80%;right:0}
+.home-refined #capabilities .about-photo>span{font-size:16px;left:18px;top:22px}
+.home-refined #capabilities .profile-main{font-size:21px}
+}
+@media(max-width:650px){
+.home-refined #capabilities .profile-layout{grid-template-columns:1fr;gap:26px}
+.home-refined #capabilities .about-photo{max-width:420px;justify-self:center}
+.home-refined #capabilities .about-photo>span{font-size:16px;left:16px;top:30px}
+.home-refined #capabilities .profile-main{font-size:21px}
+.home-refined #capabilities .profile-status{font-size:13px}
+.home-refined #capabilities .profile-tools{grid-template-columns:74px minmax(0,1fr);gap:6px 10px}
+.home-refined #capabilities .profile-detail{font-size:12px}
+.home-refined #capabilities .profile-desktop-break{display:none}
 }
