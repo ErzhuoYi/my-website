@@ -87,35 +87,17 @@
 .home-refined #capabilities .profile-desktop-break{display:none}
 }
 
-/* MINISO only: product-project support within the existing experience card. */
-.home-refined #miniso .miniso-meta{font-size:11px;line-height:1.8;color:#61584f;margin:8px 0 0}
-.home-refined #miniso .miniso-tags{display:flex;flex-wrap:wrap;gap:6px 8px;list-style:none;padding:0;margin:14px 0 0}
-.home-refined #miniso .miniso-tags li{font-size:10px;line-height:1.6;padding:3px 7px;border:1px solid var(--line);border-radius:3px}
-.home-refined #miniso .miniso-process{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;list-style:none;padding:0;margin:22px 0}
-.home-refined #miniso .miniso-step{display:flex;flex-direction:column;position:relative;min-width:0}
-.home-refined #miniso .miniso-step:not(:last-child)::after{content:'→';position:absolute;right:0;top:0;font-size:12px;color:var(--muted)}
-.home-refined #miniso .miniso-step-label{font-size:9px;line-height:1.8;letter-spacing:.3px;color:var(--muted)}
-.home-refined #miniso .miniso-step h4{font-size:14px;line-height:1.6;margin:8px 0 10px}
-.home-refined #miniso .miniso-step p{font-size:12px;line-height:1.85;color:#61584f;margin:0 0 12px}
-.home-refined #miniso .miniso-output{font-size:10px;line-height:1.8;margin-top:auto;padding-top:10px;border-top:1px solid var(--line)}
-.home-refined #miniso .miniso-yoyo{padding:18px;background:#f8f5ef;border:1px solid var(--line);border-radius:4px}
-.home-refined #miniso .miniso-yoyo h4{font-size:14px;line-height:1.6;margin:0}
-.home-refined #miniso .miniso-yoyo-subtitle{font-size:12px;line-height:1.8;margin:6px 0 0}
-.home-refined #miniso .miniso-mapping{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0 0}
-.home-refined #miniso .miniso-mapping>div{min-width:0}
-.home-refined #miniso .miniso-mapping dt{font-size:12px;line-height:1.8}
-.home-refined #miniso .miniso-mapping dd{font-size:11px;line-height:1.8;color:#61584f;margin:5px 0 0}
-.home-refined #miniso .miniso-mapping dd>span{color:var(--blue)}
-.home-refined #miniso .miniso-yoyo-summary{font-size:11px;line-height:1.9;color:#61584f;margin:15px 0 0;border-top:1px solid var(--line);padding-top:12px}
+/* Additional Experience: identical two-section cards for both companies. */
+.home-refined #additional-experience .experience-sections{margin:0 0 22px}
+.home-refined #additional-experience .experience-mini{padding:16px 0 0;border-top:1px solid var(--line)}
+.home-refined #additional-experience .experience-mini:first-child{padding-top:0;border-top:0}
+.home-refined #additional-experience .experience-mini+.experience-mini{margin-top:18px}
+.home-refined #additional-experience .experience-mini h5{font-size:14px;font-weight:500;line-height:1.6;margin:0 0 8px}
+.home-refined #additional-experience .experience-mini h5>span{font-size:10px;color:var(--muted);margin-right:9px}
+.home-refined #additional-experience .experience-mini p{font-size:13px;line-height:1.95;color:#61584f;margin:0}
+.home-refined #additional-experience .experience-mini strong{font-weight:600;color:var(--ink)}
+.home-refined #additional-experience .experience-logic{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:7px;font-size:11px;align-items:start}
+.home-refined #additional-experience .experience-logic>span{min-width:0}
 @media(max-width:1000px){
-.home-refined #miniso .miniso-process{grid-template-columns:1fr;gap:16px}
-.home-refined #miniso .miniso-step{padding-top:14px;border-top:1px solid var(--line)}
-.home-refined #miniso .miniso-step:first-child{padding-top:0;border-top:0}
-.home-refined #miniso .miniso-step:not(:last-child)::after{display:none}
-.home-refined #miniso .miniso-step h4{margin:5px 0 7px}
-.home-refined #miniso .miniso-step p{margin-bottom:8px}
-.home-refined #miniso .miniso-output{border-top:0;padding-top:0}
-.home-refined #miniso .miniso-mapping{grid-template-columns:1fr;gap:10px}
-.home-refined #miniso .miniso-mapping>div{display:grid;grid-template-columns:72px minmax(0,1fr);gap:8px}
-.home-refined #miniso .miniso-mapping dd{margin:0}
+.home-refined #additional-experience .experience-logic{gap:5px;font-size:10px}
 }
